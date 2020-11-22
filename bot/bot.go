@@ -2,7 +2,7 @@ package main
 
 func main() {
 
-	f := Parse("file.txt")
+	f := Parse("instructions.txt")
 	Driver(f)
 
 }
