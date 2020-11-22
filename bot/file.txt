@@ -1,0 +1,7 @@
+navigate
+	https://wikipedia.org
+input
+	#searchInput
+	Futurama
+click
+	#search-form > fieldset > button
