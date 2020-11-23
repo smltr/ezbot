@@ -39,7 +39,7 @@ func Parse(file string) map[int]Instruction {
 			index += 1
 			i += 3
 		case "wait":
-			instructions[index] = Instruction{action: temp2[i], target: temp2[i+1], value: temp2[i+2]}
+			instructions[index] = Instruction{action: temp2[i], target: temp2[i+1], value: ""}
 			index += 1
 			i += 3
 		}

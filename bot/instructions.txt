@@ -1,7 +1,8 @@
 navigate
-	https://wikipedia.org
-input
-	#searchInput
-	Futurama
+	https://www.newegg.com/intel-665p-series-1tb/p/N82E16820167469?Item=N82E16820167469&cm_sp=homepage_dailydeals-_-p1_20-167-469-_-11232020&quicklink=true
 click
-	#search-form > fieldset > button
+	#popup-close
+wait
+	#ProductBuy > div > div:nth-child(2) > button
+click
+	#ProductBuy > div > div:nth-child(2) > button
