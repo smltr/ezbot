@@ -74,6 +74,17 @@ click
 Great, now save your instructions.txt file and run bot.exe.
 You should see your bot perform all of the actions that we originally set out for it to do.
 
+
+There is one action that we didn't use in the example, and I will work on a tutorial that includes it as well. It is 'wait' and it takes one value, a selector, and it refreshes the page until it sees that element. An example use would be using it to check stock of an item. 
+
+Quick example:
+```
+wait
+	#ProductBuy > div > div:nth-child(2) > button
+```
+You could use this by copying the selector for the element that shows 'add to cart' for an item that is in stock, and use that selector with the wait action on the page of an item that is out of stock.
+
+
 # Help
 
 I am working on adding to the readme so please stand by. This project is also a work in progress and I am adding/fixing things every day. If you would like to ask for help, report a problem, or request a feature, please join the discord https://discord.gg/9zKuxcy8
