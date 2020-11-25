@@ -1,6 +1,6 @@
 # EzBot
 EzBot is a web driver bot made to be easy to use and quick to deploy without any programming experience.
-EzBot makes use of the Rod chromedriver package. I made it to give people without programming knowledge access to create a custom web bot.
+EzBot makes use of the [Rod chromedriver package](https://github.com/go-rod/rod). I made it to give people without programming knowledge access to create a custom web bot.
 
 # Getting Started
 ### Installing
