@@ -88,8 +88,3 @@ wait
 You could use this by copying the selector for the element that shows 'add to cart' for an item that is in stock, and use that selector with the wait action on the page of an item that is out of stock.
 
 
-# Help
-
-I am working on adding to the readme so please stand by. This project is also a work in progress and I am adding/fixing things every day. If you would like to ask for help, report a problem, or request a feature, please join the discord https://discord.gg/9zKuxcy8
-
-
