@@ -7,7 +7,7 @@ EzBot makes use of the [Rod chromedriver package](https://github.com/go-rod/rod)
 Go to 'Releases' and download ezbot.zip. If you are on desktop and on the main page for samtrouy/ezbot, the 'Releases' link should be on the right of the page. Extract the files to your preferred directory, just make sure they stay in the same folder always.
 
 ### .rod file
-EzBot needs two files in the same directory to run. The first file is ".rod" and yes, there is supposed to be nothing before the period. This file includes configurations for the bot.
+EzBot needs two files in the same directory to run. The first file is ".rod". This file includes configurations for the bot.
 The default contents look like
 ```text
 show
